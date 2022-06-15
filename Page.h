@@ -2,10 +2,11 @@
 #define _PAGE_H_
 class Page
 {
-private:
-    int page_id_in_disk;
+private: 
+    char page_id_in_disk;
 public:
-    int get_page_id_in_disk();
+    Page(char page_id_in_disk);
+    char get_page_id_in_disk();
     
 };
 

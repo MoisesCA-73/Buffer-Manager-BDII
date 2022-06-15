@@ -6,9 +6,9 @@ class Frame
 {
 public:
     Page * page;
-    int pin_counter;
-    bool dirty_flag;
-
+public:
+    Frame();
+    Frame(Page * page);
 };
 
 
